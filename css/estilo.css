@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* BANNER */
+  
+  .banner {
+    /*background-image: url("../img/banner-bg.png");*/
+    background-image: url("../img/DSC_0231.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    padding-top: 25vh;
+  }
+  @media (max-width: 768px){
+    .banner{
+      height: 70vh;
+      padding: 20vh;
+    }
+  }
+  @media (max-width: 420px){
+    .banner{
+      padding: 12vh;
+      background-position: right;
+    }
+  }
+  @media (max-width: 375px){
+    .banner{
+      padding: 10vh;
+      width: 70vh;
+      background-position: center;
+      height: 60vh;
+      /*background-size: cover;*/
+    }
+  }
+       
+  .banner h1 {
+    font-family: 'Turret Road', cursive;
+    color: #ffffff;
+  }
+  @media (max-width: 768px){
+    .banner h1{
+      font-size: 1.5em;
+      margin-block-end: 25vh;
+    }
+  }
+  @media (max-width: 420px){
+    .banner h1{
+      margin-block-end: 35vh;
+    }
+  }
+  
+  .banner p {
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  @media (max-width: 768px){
+    .banner p{
+      margin-bottom: 145px;
+    }
+  }
+  @media (max-width: 420px){
+    .banner p{
+      margin-bottom: 140px;
+    }
+  }
+      
+  
+  .banner a {
+    color: blueviolet;
+    text-decoration: unset;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+ 
+  }
+  @media (max-width: 768px){
+    .banner a{
+      padding: 10px 10px;
+      text-transform: lowercase;
+    }
+  }
+  
+  .banner a:hover {
+    background-color: blueviolet;
+    color: #fff;
+  }
+ 
+  .sobre-mim,
+  .redes-sociais {
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  @media (max-width: 768px){
+    .sobre-mim{
+      margin-left: 2%;
+    }
+  }
+  
+  .minhas-habilidades {
+    display: flex;
+  }
+  @media (max-width: 420px){
+    .minhas-habilidades{
+      display: flow-root;
+    }
+  }
+  
+  .minhas-habilidades_sobre,
+  .minhas-habilidades_itens {
+    max-width: 50%;
+  }
+  @media (max-width: 768px){
+    .minhas-habilidades_sobre{
+      text-align: justify;
+    }
+  }
+  @media (max-width: 420px){
+    .minhas-habilidades_sobre{
+      text-align: center;
+      margin: auto;
+    }
+  }
+  @media (max-width: 420px){
+    .sobre {
+      text-align: center;
+
+    }
+  }
+  @media (max-width: 375px){
+    .minhas-habilidades_sobre{
+      text-align: center;
+      margin: auto;
+    }
+  }
+  .minhas-habilidades_itens {
+    margin-left: 10%;
+  }
+  @media (max-width: 420px){
+    .minhas-habilidades_itens{
+      max-width: 60%;
+    }
+  }
+  @media (max-width: 375px){
+    .minhas-habilidades_itens{
+      max-width: none;
+    }
+  }
+  .redes-sociais_item {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 420px){
+    .redes-sociais_item{
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 375px){
+    .redes-sociais_item{
+      padding: 0 120px;
+      font-size: 8px;
+      flex-direction: column;
+      display: flex;
+    }
+  }
+  .redes-sociais_facebook,.redes-sociais_twitter,.redes-sociais_linkedin,.redes-sociais_github{
+      background-color: blueviolet;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+  }
+  @media (max-width: 420px){
+    .redes-sociais_facebook, .redes-sociais_twitter, .redes-sociais_linkedin, .redes-sociais_github{
+      padding: 10px;
+      border-radius: 40px;
+      /*justify-items: first baseline;
+      justify-content: space-around;*/
+      
+    }
+  }
+  @media (max-width: 375px){
+    .redes-sociais_facebook, .redes-sociais_twitter, .redes-sociais_linkedin, .redes-sociais_github{
+      padding: 0 20px;
+      border-radius: 40px;
+      background-color: palevioletred;
+    
+    }
+  }
+  .redes-sociais_item a{
+      text-decoration: unset;
+  }
+  .redes-sociais_item img{
+      max-height: 50px 
+  }
+  @media (max-width: 375px){
+    .redes-sociais_item img{
+      max-width: 40px;
+    }
+  }
+  
+  .footer p {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+  }
+  @media (max-width: 420px){
+    .footer p{
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 375px){
+    .footer p{
+      font-size: 10px;
+      text-align: center;
+      background-color: pink;
+    }
+  }
+  
