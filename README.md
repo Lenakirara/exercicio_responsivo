@@ -1,6 +1,6 @@
 # Exercício Responsivo
 
-[Flex Grid](https://ghislaine-responsive.netlify.com/)
+
 
 ### Página de Currículo pessoal:
 
