@@ -1,5 +1,7 @@
 # Exercício Responsivo
 
+[Flex Grid](https://ghislaine-responsive.netlify.com/)
+
 ### Página de Currículo pessoal:
 
 #### Vamos usar o projeto que desenvolvemos no Workshop - Currrículo Pessoal - e vamos trabalhar a aplicação do conceito de responsividade.
